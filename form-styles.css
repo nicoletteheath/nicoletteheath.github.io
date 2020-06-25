@@ -22,7 +22,7 @@ form {
 .form-item {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: centre;
     padding: 5px;
     color: #7C7877;
 }
@@ -61,7 +61,7 @@ form {
 }
 
 .form-item button {
-    width: 100px;
+    flex-basis: 50px;
     color: #7C7877;
     font-family: Bradley Hand, cursive;  
 }
