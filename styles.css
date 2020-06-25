@@ -11,6 +11,60 @@ img {
     object-fit: scale-down;
 }
 
+@media screen and (min-width: 950px) {
+    .project {
+        flex-basis: 40%;
+    }
+}
+
+@media screen and (max-width: 950px) {
+.flexbox-container {
+flex-wrap: wrap;
+}
+.flexbox-item {
+    flex-basis: 100%;
+}
+.flexbox-item-nested {
+    flex-basis: 100%;
+}
+.headings {
+    flex-basis: 100%;
+    font-size: 4vw;
+    align-content: center;
+}
+.project {
+    flex-basis: 40%;
+    margin: 15px;
+}
+.nav-1 {
+    margin: 10px;
+    flex-basis: 15%;
+}
+}
+
+@media screen and (max-width: 860px) {
+    .project{
+        flex-basis: 100%;
+        margin: 15px;
+    }
+    }
+
+@media screen and (max-width: 780px) {
+    .flexbox-container-2 {
+    flex-wrap: wrap;
+    }
+    .nav-1{
+        flex-basis: 100%;
+        margin: 10px;
+    }
+    .flexbox-container-3 {
+        flex-wrap: wrap;
+    }
+    .project{
+        flex-basis: 100%;
+    }
+    }
+
 .flexbox-container {
     display: flex;
     flex-direction: row;
@@ -19,18 +73,6 @@ img {
     align-items: center;
     margin: 15px;
     width: 100%;
-}
-
-@media screen and (max-width: 950px) {
-.flexbox-container {
-flex-wrap: wrap;
-}
-.flexbox-item-nested {
-    flex-basis: 100%;
-}
-.headings {
-    flex-basis: 100%;
-}
 }
 
 .flexbox-item {
@@ -49,7 +91,6 @@ flex-wrap: wrap;
     max-height: 100%;
     min-width: 50%;
     width: 50%;
-    height: 40vh;
 }
 
 header {
@@ -81,11 +122,9 @@ h2 {
     background-color: #F0E5DE;
 }
 
-a {
+.nav-1 {
     color: #7C7877;
     text-decoration: none;
-    margin: 10px;
-    flex-basis: 15%;
     font-size: 21px;
     border: 2px solid #ABD0CE;
     border-radius: 15px;
@@ -104,7 +143,6 @@ a:link, a:visited {
     background-color: #1f6e6a;
     color: #7C7877;
     border-bottom: 2px solid #7C7877;
-
   }
 
   .flexbox-container-3 {
@@ -115,11 +153,14 @@ a:link, a:visited {
     background-color: #F0E5DE;
     margin: 50px;
 }
-
-.project-1, .project-2, .project-3, .project-4, .project-5, .project-6 {
-    flex-basis: 40%;
-    margin: 15px;
-}
+    .project {
+        color: #7C7877;
+        text-decoration: none;
+        margin: 10px;
+        font-size: 21px;
+        border: 2px solid #ABD0CE;
+        border-radius: 15px;
+    }
 
 h3 {
     font-size: 30px;
@@ -130,7 +171,6 @@ h3 {
     color:#7C7877;
     font-size: 22px;
 }
-
 
 footer {
     text-align: center;
