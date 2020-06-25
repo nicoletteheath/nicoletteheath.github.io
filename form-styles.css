@@ -33,6 +33,9 @@ form {
         flex-basis: 50%;
         justify-content: center;
     }
+    label {
+        text-align: center;
+    }
     a {
         flex-wrap: wrap;
         flex-basis: 10%;
