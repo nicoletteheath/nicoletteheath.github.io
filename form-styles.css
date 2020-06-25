@@ -27,6 +27,19 @@ form {
     color: #7C7877;
 }
 
+@media screen and (max-width: 455px) {
+    .form-item {
+        flex-wrap: wrap;
+        flex-basis: 50%;
+        justify-content: center;
+    }
+    a {
+        flex-wrap: wrap;
+        flex-basis: 10%;
+        justify-content: center;
+    }
+    }
+
 .form-item label {
     flex-basis: 150px;
     font-size: 22px;

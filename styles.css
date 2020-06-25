@@ -19,25 +19,26 @@ img {
 }
 
 @media screen and (max-width: 950px) {
-.flexbox-container {
-flex-wrap: wrap;
-}
-.flexbox-item {
-    flex-basis: 100%;
-    justify-content: center;
-}
-.flexbox-item-nested {
-    flex-basis: 100%;
-}
-.headings {
-    flex-basis: 100%;
-    font-size: 4vw;
-    align-content: center;
-}
-.nav-1 {
-    margin: 10px;
-    flex-basis: 15%;
-}
+    .flexbox-container {
+        flex-wrap: wrap;
+    }
+    .flexbox-item {
+        flex-basis: 100%;
+        justify-content: center;
+        padding: 20px;
+    }
+    .flexbox-item-nested {
+        flex-basis: 100%;
+    }
+    .headings {
+        flex-basis: 100%;
+        font-size: 4vw;
+        align-content: center;
+    }
+    .nav-1 {
+        margin: 10px;
+        flex-basis: 15%;
+    }
 }
 
 @media screen and (max-width: 880px) {
@@ -61,7 +62,7 @@ flex-wrap: wrap;
     .project{
         flex-basis: 100%;
     }
-    }
+}
 
 .flexbox-container {
     display: flex;
