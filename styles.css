@@ -24,6 +24,7 @@ flex-wrap: wrap;
 }
 .flexbox-item {
     flex-basis: 100%;
+    justify-content: center;
 }
 .flexbox-item-nested {
     flex-basis: 100%;
