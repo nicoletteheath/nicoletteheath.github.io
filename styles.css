@@ -11,7 +11,7 @@ img {
     object-fit: scale-down;
 }
 
-@media screen and (min-width: 950px) {
+@media screen and (min-width: 880px) {
     .project {
         flex-basis: 40%;
     }
@@ -32,17 +32,13 @@ flex-wrap: wrap;
     font-size: 4vw;
     align-content: center;
 }
-.project {
-    flex-basis: 40%;
-    margin: 15px;
-}
 .nav-1 {
     margin: 10px;
     flex-basis: 15%;
 }
 }
 
-@media screen and (max-width: 860px) {
+@media screen and (max-width: 880px) {
     .project{
         flex-basis: 100%;
         margin: 15px;
