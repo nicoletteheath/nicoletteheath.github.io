@@ -12,9 +12,13 @@ img {
     object-fit: scale-down;
 }
 
-@media screen and (min-width: 880px) {
+@media screen and (min-width: 950px) {
     .project {
         flex-basis: 40%;
+        margin: 15px;
+    }
+    .flexbox-container-3 {
+        margin: 50px;
     }
 }
 
@@ -39,14 +43,17 @@ img {
         margin: 10px;
         flex-basis: 15%;
     }
-}
-
-@media screen and (max-width: 880px) {
+    .biography {
+        margin: 70px;
+        font-size: 21px;
+    }
+    
     .project{
         flex-basis: 100%;
         margin: 15px;
     }
-    }
+}
+
 
 @media screen and (max-width: 780px) {
     .flexbox-container-2 {
@@ -61,6 +68,31 @@ img {
     }
     .project{
         flex-basis: 100%;
+        margin: 10px;
+    }
+    .flexbox-container-3 {
+        margin: 50px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .flexbox-container-1 {
+    flex-wrap: wrap;
+    }
+    .headings {
+        flex-basis: 100%;
+        font-size: 7vw;
+        align-content: center;
+    }
+    .biography {
+        margin: 40px;
+        font-size: 16px;
+    }
+    .project{
+        flex-basis: 100%;
+    }
+    .flexbox-container-3 {
+        flex-basis: 100%
     }
 }
 
@@ -150,12 +182,11 @@ a:link, a:visited {
     flex-wrap: wrap;
     justify-content: space-around;
     background-color: #F0E5DE;
-    margin: 50px;
 }
+
     .project {
         color: #7C7877;
         text-decoration: none;
-        margin: 10px;
         font-size: 21px;
         border: 2px solid #ABD0CE;
         border-radius: 15px;
@@ -166,9 +197,7 @@ h3 {
 }
 
 .biography {
-    margin: 70px;
     color:#7C7877;
-    font-size: 22px;
 }
 
 footer {
